@@ -47,20 +47,20 @@ body{
     position: fixed;
     bottom: 0;
     left: 0;
-    background-color:#333333;
+    background-color:#39df86;
     width: 100%;
     color: #fff;
     display: none;
 }
 .bottom-menu-icons{
-    background-color: white;
+    background-color: rgb(64, 179, 41);
     margin: 5px;
     height: 30px;
     padding: 5px;
     border-radius: 5px;
 }
 .bottom-menu-icons-active{
-    background-color: #ff99c2;
+    background-color: #41d97b;
 }
  /* small devices */
  @media screen and (max-width: 599px){
