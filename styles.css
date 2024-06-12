@@ -62,4 +62,33 @@ body{
 .bottom-menu-icons-active{
     background-color: #ff99c2;
 }
+ /* small devices */
+ @media screen and (max-width: 599px){
+    .sidebar{
+        display: none;
+    }
+    .bottom-navigation-bar{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+ /* normal devices */
+ @media screen and (min-width: 600px) and (max-width: 768px){
+    .sidebar{
+        display: none;
+    }
+    .bottom-navigation-bar{
+        display: flex;
+        justify-content: space-around;
+    }
+    }
+    
+/* tablets */
+@media screen and (min-width:769px) and (max-width:992px){
+    
+}
+     /* large device */
+@media screen and (min-width:993px) and (max-width:1200px){
+   
+}
 
